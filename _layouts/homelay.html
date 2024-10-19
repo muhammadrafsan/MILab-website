@@ -3,6 +3,12 @@ layout: default
 ---
 
 <div id="homeid" class="col-sm-8 ml-0 nopadding-left">
+	<div class="text-center">
+		<img style="position:relative; left:0px" src="images\logo\logo-no-background.png" height="120" width="auto" class="rounded float-right" alt="...">
+		<h2>Machine Intelligence Lab</h2>
+		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, quam quibusdam, voluptatibus deleniti fugiat laudantium veritatis suscipit fuga asperiores placeat itaque eos rerum magnam tempore illo repellendus unde nihil ea?</p>
+	</div>
+	
 	<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
 		<!-- Menu -->
 		<ol class="carousel-indicators">
@@ -36,6 +42,11 @@ layout: default
 	{{ content }}
 </div>
 
-<div id="newsid" class="col-sm-4 nopadding-right" >
+<!-- <div id="newsid" class="col-sm-4 nopadding-right" >
 	{% include tweets.html %}
+</div> -->
+
+<div id="newsid" class="col-sm-4 sidenews" >
+	{% include news.html %}
 </div>
+  
